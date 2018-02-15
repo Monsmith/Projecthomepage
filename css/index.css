@@ -188,18 +188,23 @@ h5 {
 .video-container video.fillWidth {
     width: 100%;
 }
-.jumbotron{
-	height: 300px;
-}
+
 .filter{
 padding-top: 22%;
 }
 .filter h1 {
 	font-family: "Open Sans", Arial, sans-serif;
 font-size: 65px;
-color: black;
+color: white;
+text-transform: uppercase;
+
 }
 .filter p {
 	font-family: "Open Sans", Arial, sans-serif;
-color: black;
+color: white;
+text-transform: uppercase;
+
+}
+.img-fluid{
+height: 100px;
 }

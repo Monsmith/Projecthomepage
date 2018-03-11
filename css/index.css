@@ -197,9 +197,29 @@ padding-top: 22%;
 .filter h1 {
 	font-family: "Open Sans", Arial, sans-serif;
 font-size: 65px;
-color: black;
+color: white;
 }
 .filter p {
 	font-family: "Open Sans", Arial, sans-serif;
-color: black;
+color: white;
+}
+.showcase .showcase-text {
+  padding: 3rem;
+
+}
+
+.showcase .showcase-img {
+  min-height: 30rem;
+  background-size: cover;
+}
+
+@media (min-width: 768px) {
+  .showcase .showcase-text {
+    padding: 7rem;
+  }
+}
+}
+.showcase-text p h2{
+	text-align: center;
+
 }
